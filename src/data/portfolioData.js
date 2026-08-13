@@ -188,7 +188,13 @@ export const education = [
     degree: 'B.E. Computer Science and Engineering',
     institution: 'Francis Xavier Engineering College',
     detail: 'CGPA: 9.087',
-    period: 'November 2023 – March 2027',
+    period: 'Augest 2023 – March 2027',
+    current: true,
+  },
+   {
+    degree: 'Cyber Security and Essentials',
+    institution: 'Francis Xavier Engineering College',
+    period: 'November 2024 – March 2027',
     current: true,
   },
   {
