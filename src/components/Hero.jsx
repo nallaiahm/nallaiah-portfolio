@@ -10,7 +10,6 @@ const ROLES = [
   'Full Stack Developer',
 ]
 
-// Simple typewriter effect cycling through role titles.
 function useTypewriter(words, { typeSpeed = 55, deleteSpeed = 30, pause = 1400 } = {}) {
   const [index, setIndex] = useState(0)
   const [text, setText] = useState('')
@@ -96,7 +95,7 @@ export default function Hero() {
             <img src={profileImg} alt={`Portrait of ${profile.name}`} className="hero__photo" />
           </div>
           <div className="hero__badge hero__badge--1">B.E CSE '27</div>
-          <div className="hero__badge hero__badge--2">CGPA 8.93</div>
+          <div className="hero__badge hero__badge--2">CGPA 9.087</div>
         </div>
       </div>
 
